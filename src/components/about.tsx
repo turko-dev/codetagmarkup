@@ -31,7 +31,7 @@ export function AboutUs() {
       <AccordionItem value="item-3">
         <AccordionTrigger>Is it free?</AccordionTrigger>
         <AccordionContent className="text-muted-foreground">
-          And <span className="pink">of course it&apos;s free</span>. We don't know what this project is yet, it might be something cool,
+          And <span className="pink">of course it&apos;s free</span>. We don&apos;t know what this project is yet, it might be something cool,
            or it might be something profitable. Until further notice, CodeTagMarkup is <span className="pink">free to use </span>
            for anybody and everybody.
         </AccordionContent>

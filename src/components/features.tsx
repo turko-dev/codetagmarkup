@@ -51,7 +51,7 @@ export function Features() {
       <TabsContent value="Input">
 <div className="bg-black mockup-code">
   <pre data-prefix="~" className="text-sm"><code># Before Custom Classes are added.</code></pre>
-  <pre data-prefix="1" className="text-sm text-secondary"><code>&lt;div className="code_embed"&gt;</code></pre>
+  <pre data-prefix="1" className="text-sm text-secondary"><code>&lt;div className=&quot;code_embed&quot;&gt;</code></pre>
   <pre data-prefix="2" className="text-sm text-secondary"><code>    &lt;code&gt;</code></pre>
   <pre data-prefix="3" className="text-sm text-secondary"><code>        Text</code></pre>
   <pre data-prefix="4" className="text-sm text-secondary"><code>    &lt;/code&gt;</code></pre>
@@ -61,14 +61,14 @@ export function Features() {
       <TabsContent value="Output">
 <div className="bg-black mockup-code">
   <pre data-prefix="~" className="text-sm"><code># After Custom Classes are added.</code></pre>
-  <pre data-prefix="1" className="text-sm text-secondary"><code>&lt;div className="code_embed"&gt;</code></pre>
-  <pre data-prefix="2" className="text-sm text-secondary"><code>    &lt;span className="pink"&gt;<span className="pink">&amp;lt;</span>&lt;/span&gt;</code></pre>
+  <pre data-prefix="1" className="text-sm text-secondary"><code>&lt;div className=&quot;code_embed&quot;&gt;</code></pre>
+  <pre data-prefix="2" className="text-sm text-secondary"><code>    &lt;span className=&quot;pink&quot;&gt;<span className="pink">&amp;lt;</span>&lt;/span&gt;</code></pre>
   <pre data-prefix="3" className="text-sm text-secondary"><code>        <span className="orange">code</span></code></pre>
-  <pre data-prefix="4" className="text-sm text-secondary"><code>    &lt;span className="pink"&gt;<span className="pink">&amp;gt;</span>&lt;/span&gt;</code></pre>
+  <pre data-prefix="4" className="text-sm text-secondary"><code>    &lt;span className=&quot;pink&quot;&gt;<span className="pink">&amp;gt;</span>&lt;/span&gt;</code></pre>
   <pre data-prefix="5" className="text-sm text-secondary"><code>            <span className="blue">Text</span></code></pre>
-  <pre data-prefix="6" className="text-sm text-secondary"><code>    &lt;span className="pink"&gt;<span className="pink">&amp;lt;</span>&lt;/span&gt;</code></pre>
+  <pre data-prefix="6" className="text-sm text-secondary"><code>    &lt;span className=&quot;pink&quot;&gt;<span className="pink">&amp;lt;</span>&lt;/span&gt;</code></pre>
   <pre data-prefix="7" className="text-sm text-secondary"><code>        <span className="orange">code</span></code></pre>
-  <pre data-prefix="8" className="text-sm text-secondary"><code>    &lt;span className="pink"&gt;<span className="pink">&amp;gt;</span>&lt;/span&gt;</code></pre>
+  <pre data-prefix="8" className="text-sm text-secondary"><code>    &lt;span className=&quot;pink&quot;&gt;<span className="pink">&amp;gt;</span>&lt;/span&gt;</code></pre>
   <pre data-prefix="9" className="text-sm text-secondary"><code>&lt;/div&gt;</code></pre>
 </div>
      
@@ -109,7 +109,7 @@ export function Features() {
       <TabsContent value="Input">
 <div className="bg-black mockup-code">
   <pre data-prefix="~" className="text-sm"><code># Before Suffixes are added.</code></pre>
-  <pre data-prefix="1" className="text-sm text-secondary"><code>&lt;div className="code_embed"&gt;</code></pre>
+  <pre data-prefix="1" className="text-sm text-secondary"><code>&lt;div className=&quot;code_embed&quot;&gt;</code></pre>
   <pre data-prefix="2" className="text-sm text-secondary"><code>    &lt;code&gt;</code></pre>
   <pre data-prefix="3" className="text-sm text-secondary"><code>        Text</code></pre>
   <pre data-prefix="4" className="text-sm text-secondary"><code>    &lt;/code&gt;</code></pre>
@@ -119,10 +119,10 @@ export function Features() {
       <TabsContent value="Output">
 <div className="bg-black mockup-code">
   <pre data-prefix="~" className="text-sm"><code># After Suffixes are added.</code></pre>
-  <pre data-prefix="1" className="text-sm text-secondary"><code>&lt;div className="code_embed"&gt;</code></pre>
-  <pre data-prefix="2" className="text-sm text-secondary"><code>    &lt;pre data-prefix="<span className="pink">1</span>"&gt;&amp;lt;code&amp;gt;&lt;/pre&gt;</code></pre>
-  <pre data-prefix="3" className="text-sm text-secondary"><code>    &lt;pre data-prefix="<span className="pink">2</span>"&gt;Text&lt;/pre&gt;</code></pre>
-  <pre data-prefix="4" className="text-sm text-secondary"><code>    &lt;pre data-prefix="<span className="pink">3</span>"&gt;&amp;lt;/code&amp;gt;&lt;/pre&gt;</code></pre>
+  <pre data-prefix="1" className="text-sm text-secondary"><code>&lt;div className=&quot;code_embed&quot;&gt;</code></pre>
+  <pre data-prefix="2" className="text-sm text-secondary"><code>    &lt;pre data-prefix=&quot;<span className="pink">1</span>&quot;&gt;&amp;lt;code&amp;gt;&lt;/pre&gt;</code></pre>
+  <pre data-prefix="3" className="text-sm text-secondary"><code>    &lt;pre data-prefix=&quot;<span className="pink">2</span>&quot;&gt;Text&lt;/pre&gt;</code></pre>
+  <pre data-prefix="4" className="text-sm text-secondary"><code>    &lt;pre data-prefix=&quot;<span className="pink">3</span>&quot;&gt;&amp;lt;/code&amp;gt;&lt;/pre&gt;</code></pre>
   <pre data-prefix="5" className="text-sm text-secondary"><code>&lt;/div&gt;</code></pre>
 </div>
      
@@ -161,9 +161,9 @@ export function Features() {
       <TabsContent value="Input">
 <div className="bg-black mockup-code">
   <pre data-prefix="~" className="text-sm"><code># Before code is formatted.</code></pre>
-  <pre data-prefix="1" className="text-sm text-secondary"><code>&lt;div className="code_embed"&gt;</code></pre>
+  <pre data-prefix="1" className="text-sm text-secondary"><code>&lt;div className=&quot;code_embed&quot;&gt;</code></pre>
   <pre data-prefix="2" className="text-sm text-secondary"><code>  &lt;code&gt;Text</code></pre>
-  <pre data-prefix="3" className="text-sm text-secondary"><code>&lt;div className="heroSection"&gt;</code></pre>
+  <pre data-prefix="3" className="text-sm text-secondary"><code>&lt;div className=&quot;heroSection&quot;&gt;</code></pre>
   <pre data-prefix="4" className="text-sm text-secondary"><code>&lt;/div&gt;</code></pre>
   <pre data-prefix="5" className="text-sm text-secondary"><code>&lt;span&gt;</code></pre>
   <pre data-prefix="6" className="text-sm text-secondary"><code>    &lt;p&gt;</code></pre>
