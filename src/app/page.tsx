@@ -93,7 +93,7 @@ export default function Home() {
 
 </div>
 <div className="bg-black mockup-code w-full">
-  <pre data-prefix="~"><code>Now it's ready to be displayed.</code></pre>
+  <pre data-prefix="~"><code>Now it&apos;s ready to be displayed.</code></pre>
   <pre data-prefix="1" className="text-muted-foreground"><code>&lt;<span className="pink">code</span>&gt;</code></pre>
   <pre data-prefix="2" className="text-muted-foreground"><code>   .header &amp;#123;</code></pre>
   <pre data-prefix="3" className="text-muted-foreground"><code>     width:100%;</code></pre>
@@ -110,7 +110,7 @@ export default function Home() {
         <div className="space-y-1">
           <h4 className="text-sm dark text-foreground font-medium leading-none">Extras</h4>
           <p className="text-sm dark text-muted-foreground">
-            Our mission is to help front-end developers write displayable code into their websites. If you're interested, read more about what we can provide for you.
+            Our mission is to help front-end developers write displayable code into their websites. If you&apos;re interested, read more about what we can provide for you.
           </p>
         </div>
         <Separator className="my-4" />
