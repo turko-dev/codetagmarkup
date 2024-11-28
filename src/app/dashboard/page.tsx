@@ -49,9 +49,7 @@ export default function Dashboard() {
       </PopoverContent>
     </Popover>
                 </div>
-                    <textarea value={txtarea} onChange={(e)=> setTextarea(e.target.value)} className="text-1xl text-foreground bg-secondary dashboard w-full">
-                      Enter the code
-                    </textarea>
+                    <textarea value={txtarea} onChange={(e)=> setTextarea(e.target.value)} className="text-1xl text-foreground bg-secondary dashboard w-full"></textarea>
 
                     <Button className="my-2" onClick={()=> {
                       let text1 = esthetic.format(txtarea, {
