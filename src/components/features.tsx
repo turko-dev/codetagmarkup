@@ -177,9 +177,9 @@ export function Features() {
       <TabsContent value="Output">
 <div className="bg-black mockup-code">
   <pre data-prefix="~" className="text-sm"><code># After code is formatted.</code></pre>
-  <pre data-prefix="1" className="text-sm text-secondary"><code>&lt;div className="code_embed"&gt;</code></pre>
+  <pre data-prefix="1" className="text-sm text-secondary"><code>&lt;div className=&quot;code_embed&quot;&gt;</code></pre>
   <pre data-prefix="2" className="text-sm text-secondary"><code>  &amp;lt;<span className="pink">code</span>&amp;gt;</code></pre>
-  <pre data-prefix="3" className="text-sm text-secondary"><code>    &amp;lt;<span className="pink">div</span> <span className="orange">className</span>=<span className="blue">"heroSection"</span>&amp;gt;</code></pre>
+  <pre data-prefix="3" className="text-sm text-secondary"><code>    &amp;lt;<span className="pink">div</span> <span className="orange">className</span>=<span className="blue">&quot;heroSection&quot;</span>&amp;gt;</code></pre>
   <pre data-prefix="4" className="text-sm text-secondary"><code>    &amp;lt;<span className="pink">/div</span>&amp;gt;</code></pre>
   <pre data-prefix="5" className="text-sm text-secondary"><code>    &amp;lt;<span className="pink">span</span>&amp;gt;</code></pre>
   <pre data-prefix="6" className="text-sm text-secondary"><code>      &amp;lt;<span className="pink">p</span>&amp;gt;</code></pre>
