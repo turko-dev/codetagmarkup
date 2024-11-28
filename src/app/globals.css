@@ -1,0 +1,240 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --breakpoint:	1280px;
+}
+
+
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 0 0% 3.9%;
+    --card: 0 0% 100%;
+    --card-foreground: 0 0% 3.9%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 0 0% 3.9%;
+    --primary: 350 100% 58.8%;
+    --primary-foreground: 0 85.7% 97.3%;
+    --secondary: 0 0% 96.1%;
+    --secondary-foreground: 0 0% 9%;
+    --muted: 0 0% 96.1%;
+    --muted-foreground: 0 0% 45.1%;
+    --accent: 0 0% 96.1%;
+    --accent-foreground: 0 0% 9%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 0 0% 89.8%;
+    --input: 0 0% 89.8%;
+    --ring: 0 72.2% 50.6%;
+    --radius: 0.5rem;
+    --chart-1: 12 76% 61%;
+    --chart-2: 173 58% 39%;
+    --chart-3: 197 37% 24%;
+    --chart-4: 43 74% 66%;
+    --chart-5: 27 87% 67%;
+  }
+
+  .dark {
+    --background: 0 0% 3.9%;
+    --foreground: 0 0% 98%;
+    --card: 0 0% 3.9%;
+    --card-foreground: 0 0% 98%;
+    --popover: 0 0% 3.9%;
+    --popover-foreground: 0 0% 98%;
+    --primary: 350 100% 58.8%
+    --primary-foreground: 0 85.7% 97.3%;
+    --secondary: 0 0% 14.9%;
+    --secondary-foreground: 0 0% 98%;
+    --muted: 0 0% 14.9%;
+    --muted-foreground: 0 0% 63.9%;
+    --accent: 0 0% 14.9%;
+    --accent-foreground: 0 0% 98%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 0 0% 14.9%;
+    --input: 0 0% 14.9%;
+    --ring: 0 72.2% 50.6%;
+    --chart-1: 220 70% 50%;
+    --chart-2: 160 60% 45%;
+    --chart-3: 30 80% 55%;
+    --chart-4: 280 65% 60%;
+    --chart-5: 340 75% 55%;
+  }
+}
+
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+body {
+  background-color: rgb(10, 10, 10);
+}
+
+.navbar_logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navbar_wrapper {
+  width:100%;
+  height:fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navbar {
+  width:var(--breakpoint);
+  padding:8px;
+  height:fit-content;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width:100%;
+  height:fit-content;
+  margin-top:60px;
+  flex-direction: column;
+  
+}
+.hero_main {
+  margin-top:80px
+}
+.hero {
+  display: flex;
+  justify-content: space-between;
+  width:var(--breakpoint);
+  gap:40px;
+}
+.text_gap {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  flex-direction: column;
+  gap:8px;
+}
+.demonstration {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  gap:8px;
+  width:var(--breakpoint);
+}
+
+.pink {
+  color:#ff2d50;
+}
+.orange {
+  color:#ffae2d;
+}
+.blue {
+  color:#2d37ff;
+}
+.features {
+  width:var(--breakpoint);
+  height:fit-content;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.dashboard {
+  width:var(--breakpoint);
+  min-height:500px;
+  height:fit-content;
+  display: flex;
+  align-items: center;
+  border-top:1px solid rgb(46, 46, 46);
+  scroll-behavior: smooth;
+  scrollbar-width: auto;
+  padding:8px;
+  border-radius:4px;
+}
+.dashboard:focus {
+  border:2px solid rgb(209, 29, 29);
+}
+.dashboard-options {
+  margin-top:8px;
+  margin-bottom:8px;
+  display: flex;
+  gap:8px;
+  justify-content: baseline;
+  align-items: center;
+}
+.footer {
+  width:var(--breakpoint);
+  height:fit-content;
+  padding:32px 0 32px 0;
+  display: flex;
+  justify-content: baseline;
+  align-items: center;
+  border-top:1px solid rgb(46, 46, 46);
+}
+.dashboard-input {
+  height:500px;
+}
+@media all and (max-width:1800px) {
+
+  .navbar{
+    flex-direction: row-reverse;
+  }
+
+}
+@media all and (max-width:1280px) {
+  /*MEDIUM QUERY*/
+
+
+
+
+
+  :root {
+    --breakpoint:764px;
+  }
+}
+@media all and (max-width:800px) {
+
+  /*MEDIUM SMALL*/
+  .logo {display: none;}
+  .navbar{
+    justify-content: center;gap:8px;
+  }
+  .hero {
+    flex-direction: column;
+  }
+  .text_gap {
+    width:100%;
+    align-items: center;
+    text-align: center;
+  }
+  .hero_image {
+    display: none;
+  }
+  .demonstration {
+    flex-direction: column;
+  }
+
+
+
+
+
+
+
+
+
+  :root {
+    --breakpoint:100%;
+  }
+  .wrapper .inner {
+    width: calc(100% - 32px)
+  }
+}
