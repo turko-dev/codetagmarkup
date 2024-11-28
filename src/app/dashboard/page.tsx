@@ -12,7 +12,6 @@ import { useState, useEffect } from "react"
 export default function Dashboard() {
   const [textarea, setTextarea] = useState("")
   const [result, setResult] = useState("")
-  const [extra, setExtra] = useState("")
     return(
         <div className="wrapper">
             <div className="inner">
@@ -49,9 +48,8 @@ export default function Dashboard() {
         </div>
       </PopoverContent>
     </Popover>
-    
                 </div>
-                    <textarea value={textarea} onChange={e=> setTextarea(e.target.value)} className="text-1xl text-foreground bg-secondary dashboard w-full" id="">
+                    <textarea value={textarea} onChange={(e)=> setTextarea(e.target.value)} className="text-1xl text-foreground bg-secondary dashboard w-full" id="">
                       Enter the code
                     </textarea>
 
