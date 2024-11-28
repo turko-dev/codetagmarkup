@@ -20,7 +20,7 @@ export function Logo() {
 
             <h4 className="text-sm font-semibold"><a target="_blank" href="https://x.com/selecta_turko">@selecta_turko</a></h4>
             <p className="text-sm">
-              "A tool that allows you to use <span className="pink">&lt;</span>code<span className="pink">&gt;</span> tags to actually display code instead of throwing an error."
+            &quot;A tool that allows you to use <span className="pink">&lt;</span>code<span className="pink">&gt;</span> tags to actually display code instead of throwing an error.&quot;
             </p>
             <div className="flex items-center pt-2">
               <CalendarDays className="mr-2 h-4 w-4 opacity-70" />{" "}
