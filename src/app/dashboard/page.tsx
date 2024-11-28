@@ -78,7 +78,7 @@ export default function Dashboard() {
                     }}>Submit</Button>
                     <p className="my-2 dark text-foreground">Results</p>
                     <div className="p-5 bg-black mockup-code w-full whitespace-pre">
-                    <code><span className="pink">&lt;div className="bg-black mockup-code w-full p-4"&gt;</span><br /></code>
+                    <code><span className="pink">&lt;div className=&quot;bg-black mockup-code w-full p-4&quot;&gt;</span><br /></code>
                     {result}
                     <code><br/><span className="pink">&lt;/div&gt;</span></code>
                     </div>
