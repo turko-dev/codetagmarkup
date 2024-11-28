@@ -13,8 +13,6 @@ export default function Dashboard() {
   const [textarea, setTextarea] = useState("")
   const [result, setResult] = useState("")
   const [extra, setExtra] = useState("")
-
-  
     return(
         <div className="wrapper">
             <div className="inner">
@@ -32,7 +30,6 @@ export default function Dashboard() {
               This function is currently under development and therefore currently not available.
             </p>
           </div>
-         
         </div>
       </PopoverContent>
     </Popover>
@@ -54,15 +51,11 @@ export default function Dashboard() {
     </Popover>
     
                 </div>
-                    <textarea value={textarea} onChange={e=> setTextarea(e.target.value)} className="text-1xl text-foreground bg-secondary dashboard w-full" id="">
+                    <textarea defaultValue="Default" value={textarea} onChange={e=> setTextarea(e.target.value)} className="text-1xl text-foreground bg-secondary dashboard w-full" id="">
                       Enter the code
                     </textarea>
 
                     <Button className="my-2" onClick={()=> {
-
-
-
-
                       let text1 = esthetic.format(textarea, {
                         language: "html",
                         style: {
@@ -70,8 +63,6 @@ export default function Dashboard() {
                         }
                       })
                       let text = text1.replaceAll("<", "&lt;").replaceAll(">", "&gt;").replaceAll("{", "&#123;").replaceAll("}", "&#125;")
-                      
-
                       text = text.replace(/(?:\r\n|\r|\n)/g, "</code>\n<code>");
                       text = "<code>" + text + "</code>"
                       setResult(text)
