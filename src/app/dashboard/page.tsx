@@ -10,7 +10,7 @@ import {
 import { useState, useEffect } from "react"
 
 export default function Dashboard() {
-  const [textarea, setTextarea] = useState("")
+  const [txtarea, setTextarea] = useState("")
   const [result, setResult] = useState("")
     return(
         <div className="wrapper">
@@ -49,12 +49,12 @@ export default function Dashboard() {
       </PopoverContent>
     </Popover>
                 </div>
-                    <textarea value={textarea} onChange={(e)=> setTextarea(e.target.value)} className="text-1xl text-foreground bg-secondary dashboard w-full" id="">
+                    <textarea value={txtarea} onChange={(e)=> setTextarea(e.target.value)} className="text-1xl text-foreground bg-secondary dashboard w-full">
                       Enter the code
                     </textarea>
 
                     <Button className="my-2" onClick={()=> {
-                      let text1 = esthetic.format(textarea, {
+                      let text1 = esthetic.format(txtarea, {
                         language: "html",
                         style: {
                           noLeadZero: true
