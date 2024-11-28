@@ -51,7 +51,7 @@ export default function Dashboard() {
     </Popover>
     
                 </div>
-                    <textarea defaultValue={textarea} onChange={e=> setTextarea(e.target.value)} className="text-1xl text-foreground bg-secondary dashboard w-full" id="">
+                    <textarea value={textarea} onChange={e=> setTextarea(e.target.value)} className="text-1xl text-foreground bg-secondary dashboard w-full" id="">
                       Enter the code
                     </textarea>
 
