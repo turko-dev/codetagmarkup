@@ -64,7 +64,7 @@ export default function Dashboard() {
 
 
                       let text1 = esthetic.format(textarea, {
-                        language: 'html',
+                        language: "html",
                         style: {
                           noLeadZero: true
                         }

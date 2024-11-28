@@ -25,13 +25,13 @@ export function AboutUs() {
       <AccordionItem value="item-2">
         <AccordionTrigger>What frameworks can I use it with?</AccordionTrigger>
         <AccordionContent className="text-muted-foreground">
-          Our first choice was <span className="pink">DaisyUI</span>'s pre-built code mockup components. However, in the future we will aim to create code mockup components for <span className="orange">Shadcn-UI</span> and other Tailwind libraries too.
+          Our first choice was <span className="pink">DaisyUI</span>&apos;s pre-built code mockup components. However, in the future we will aim to create code mockup components for <span className="orange">Shadcn-UI</span> and other Tailwind libraries too.
         </AccordionContent>
       </AccordionItem>
       <AccordionItem value="item-3">
         <AccordionTrigger>Is it free?</AccordionTrigger>
         <AccordionContent className="text-muted-foreground">
-          And <span className="pink">of course it's free</span>. We don't know what this project is yet, it might be something cool,
+          And <span className="pink">of course it&apos;s free</span>. We don't know what this project is yet, it might be something cool,
            or it might be something profitable. Until further notice, CodeTagMarkup is <span className="pink">free to use </span>
            for anybody and everybody.
         </AccordionContent>

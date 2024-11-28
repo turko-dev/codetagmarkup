@@ -1,7 +1,7 @@
 import { Navigation } from "./navigation"
 import { Button } from "@/components/ui/button"
 import { Logo } from "@/components/logo"
-import logo from './reallogowhite.png'
+import logo from "./reallogowhite.png"
 import Image from "next/image"
 export function Navbar() {
 
